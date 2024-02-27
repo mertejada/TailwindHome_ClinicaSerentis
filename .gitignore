@@ -1,0 +1,10 @@
+node_modules
+produccion
+desarrollo
+*tmp
+.parcel-cache/
+.parcel-cache/*.mdb
+.DS_Store
+
+
+ 
