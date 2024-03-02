@@ -1080,6 +1080,18 @@ input:checked + .toggle-bg{
   font-family: 'Poppins', sans-serif;
 }
 
+.partner-img{
+  margin-left: auto;
+  margin-right: auto;
+  width: 11rem;
+}
+
+@media (min-width: 1024px){
+  .partner-img{
+    width: 13rem;
+  }
+}
+
 .visible{
   visibility: visible;
 }
@@ -1652,6 +1664,11 @@ input:checked + .toggle-bg{
   line-height: 2.5rem;
 }
 
+.text-base{
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
 .text-lg{
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -1934,6 +1951,11 @@ input:checked + .toggle-bg{
 }
 
 @media (min-width: 640px){
+  .sm\:mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .sm\:mt-0{
     margin-top: 0px;
   }
@@ -1966,6 +1988,11 @@ input:checked + .toggle-bg{
 @media (min-width: 768px){
   .md\:m-20{
     margin: 5rem;
+  }
+
+  .md\:mx-auto{
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .md\:block{
@@ -2018,6 +2045,11 @@ input:checked + .toggle-bg{
     font-size: 3rem;
     line-height: 1;
   }
+
+  .md\:text-lg{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
 }
 
 @media (min-width: 1024px){
@@ -2027,6 +2059,23 @@ input:checked + .toggle-bg{
 
   .lg\:p-2{
     padding: 0.5rem;
+  }
+}
+
+@media (min-width: 1280px){
+  .xl\:w-52{
+    width: 13rem;
+  }
+
+  .xl\:text-xl{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+
+@media (min-width: 1536px){
+  .\32xl\:m-72{
+    margin: 18rem;
   }
 }
 
